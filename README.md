@@ -258,6 +258,28 @@ Revision/Addition Description and Link:
 # Muhammad S
 Initial Description and Link:
 
+### Vignette Description:
+The vignette submitted is titled `Muhammad_Khan_Tidyverse_Vignette.qmd`. It demonstrates how TidyVerse packages (`dplyr`, `tidyr`, and `ggplot2`) can be used to clean, transform, and analyze a real-world dataset in R.
+
+### Dataset Description and Link:
+The dataset used is the **Netflix Movies and TV Shows dataset** from Kaggle. It includes information such as title, content type, country, release year, rating, duration, and genre categories.
+
+Dataset Link: https://www.kaggle.com/datasets/shivamb/netflix-shows
+
+### TidyVerse Functions Used:
+This vignette uses functions from `readr`, `dplyr`, `tidyr`, and `ggplot2`, including:
+- `read_csv()`
+- `select()`
+- `drop_na()`
+- `count()`
+- `separate_rows()`
+- `group_by()`
+- `slice_max()`
+- `ggplot()`
+
+### Summary of Analysis:
+The vignette focuses on the `listed_in` column, which contains multiple genres in a single field. Using `separate_rows()`, the data is transformed into a tidy format, allowing genre-level analysis. The data is then summarized to identify the most common genres and compare distributions between Movies and TV Shows. Visualizations are created to highlight these patterns.
+
 Revision/Addition Description and Link:
 
 # Nana Kwasi D
