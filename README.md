@@ -255,8 +255,11 @@ TidyVerse Packages & Functions Used:
 
 # Madina K
 Initial Description and Link:
+[Madina Lubridate Vignette - (https://github.com/MKudanova/SPRING2026TIDYVERSE/blob/main/madina_vignette.qmd)
 
 Revision/Addition Description and Link:
+Extended Zihao Yu’s iris vignette by adding a petal length-to-width ratio analysis, including a grouped summary and visualization. 
+https://github.com/MKudanova/SPRING2026TIDYVERSE/blob/main/zihao_iris_vignette.Rmd
 
 # Mark H
 Initial Description and Link:
