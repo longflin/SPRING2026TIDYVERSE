@@ -75,6 +75,15 @@ This vignette draws upon functions from readr, dplyr, tidyr, and ggplot2, includ
 A central focus of the vignette was the genre field, since multiple genres were often stored within a single observation and were therefore not immediately in a tidy format for grouped analysis. Using separate_rows(), the field was restructured into a more analysis-ready form, after which the data was grouped and summarized in order to compare average IMDb ratings across genres, with the results being visualized in a bar chart.
 
 Revision/Addition Description and Link:
+Theresa Benny extended this vignette by exploring the relationship between average runtime and average IMDb rating across genres.
+
+In this extension:
+- Runtime was converted from text to numeric using mutate() and str_extract()
+- Average runtime and IMDb rating were calculated for each genre
+- A scatter plot was created to visualize the relationship between runtime and ratings
+- Additional insights were provided based on the visualization
+
+This extension adds a new analytical dimension (runtime) to the original genre-based analysis.
 
 # Chanice M
 Initial Description and Link:
@@ -406,6 +415,7 @@ Initial Description and Link:
 This example demonstrates how to use dplyr to analyze the relationship between academic pressure and burnout. The analysis shows that burnout levels remain relatively consistent across different levels of academic pressure, highlighting the importance of validating assumptions with data.
 
 Revision/Addition Description and Link:
+
 
 # Xiaofei M
 Initial Description and Link:
