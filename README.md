@@ -323,13 +323,14 @@ TidyVerse Packages & Functions Used:
   * `readr`: `read_csv()`
   * `dplyr`: `select`, `filter`, `mutate()`, `group_by()`, `summarize()`
   * `ggplot2`: `ggplot()`
-  * 
+
 TidyExtend:
-Original Vignette Title: Shawn_Ganz_Vignette
-Original Author: Shawn Ganz
-Dataset: National Center for Health Statistics' (NCHS) National Health and Nutrition Examination Survey (NHANES) study from August 2021-August 2023
-Additions: * New Functions Used: factor(), ggplot2::geom_boxplot(), ggplot2::geom_col(fill)
-Updated Vignette Title: Shawn_Ganz_Vignette EXTEND Long Lin
+* **Original Vignette Title:** Shawn_Ganz_Vignette
+* **Original Author:** Shawn Ganz
+* **Dataset:** National Center for Health Statistics' (NCHS) National Health and Nutrition Examination Survey (NHANES) study from August 2021-August 2023
+Additions: factor(), ggplot2::geom_boxplot(), ggplot2::geom_col(fill)
+* **Additions:** `factor()`, `ggplot2::geom_boxplot()`, `ggplot2::geom_col(fill)`
+* **Updated Vignette Title:** Shawn_Ganz_Vignette EXTEND Long Lin
 
 # Madina K
 Initial Description and Link:
